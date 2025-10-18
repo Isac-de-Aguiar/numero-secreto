@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="jogo.js"></script>
+    <title>JOGO DO NÚMERO SECRETO</title>
+</head>
+<body>
+    <header>
+        <article class="top-header">
+            <h1>🎯 JOGO DO NÚMERO SECRETO 🎯</h1>
+            <section class="botton-header">
+                <p>
+                    BEM-VINDO, e PREPARE-SE!<br>
+                    🍀 VAMOS TRABALHAR A SUA SORTE! 🍀
+                </p>
+            </section>
+        </article>
+    </header>
+
+    <main>
+        <article class="explicacao-game">
+            <p>
+                ECOLHA UM NÚMERO ENTRE <span class="cor-palavra">1</span> E <span class="cor-palavra"">100</span><br>
+            </p> 
+            <p class="explicacao-game-tentativas">Você terá 10 tentativas</p>
+            <section class="numero-usuario">
+                <label for="numero"></label>
+                <input type="text" name="numero" id="palpite" class="palpite" placeholder="Ex: 89"><br>
+            </section>
+        </article>
+
+        <section class="button">
+            <button onclick="verificandoNumero()" class="button_chute">CHUTAR</button>
+            <p id="tentativasRestantes"></p>
+        </section>
+
+        
+    </main>
+    
+</body>
+</html>

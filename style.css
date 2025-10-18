@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Port+Lligat+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Port+Lligat+Slab&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsla(106, 100%, 50%, 0.635);
+}
+
+header {
+    
+    text-align: center;
+    padding: 60px 20px;
+    font-family: "Port Lligat Slab", serif;
+
+    & h1 {
+        color: lab(66.57% 42.55 73.59);
+    }
+
+    & p {
+        color: lab(0% 0 0);
+        padding-top: 20px;
+        padding-bottom: 2px;   
+        font-weight: bold;
+        font-size: 20px;
+    }
+}
+
+main {
+    font-family: "Port Lligat Slab", serif;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 2%;
+    
+    & .cor-palavra {
+        color: rgb(138, 48, 223);
+        font-size: 80px;       
+    }
+
+    & .explicacao-game-tentativas {
+        font-size: 30px;
+    }
+
+    & .numero-usuario {
+        padding: 2%;
+        & .palpite {
+            border-radius: 10px;
+            color: rgb(138, 48, 223);
+            width: 200px;
+            height: 90px;
+            font-size: 40px;
+            text-align: center;
+        }
+    }
+
+    & .button {
+       
+       padding-bottom: 2%;
+
+        & .button_chute {
+            color: rgb(255, 255, 255);
+            background-color: rgb(138, 48, 223);
+            font-weight: bold;
+            font-size: 25px;
+            font-family: "Port Lligat Slab", serif;
+            border-radius: 10px;
+            width: 180px;
+            height: 50px;
+            transition: 0.3s;
+            border: none;
+        }
+
+        & button:hover {
+            color: lab(100% 0.01 -0.01);
+            background-color: lab(66.57% 42.55 73.59);
+        }
+
+        & p {
+            padding: 2%;
+            font-size: 25px;
+        }
+        
+    }
+
+}
